@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color: rgb(0, 0, 0);
+}
+
+header h1 {
+    color: white;
+}
+
+header h2 {
+    color: white;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    margin-right: 500px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/arkaplan\ resmi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    filter: opacity(50%);
+}
+
+article h1 {
+    font-size: 50px;
+    color: rgb(180, 168, 0);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav div {
+    display: flex;
+    height: 300px;
+    width: 600px;
+}
+
+nav div span {
+    height: 600px;
+    width: 500px;
+    background-color: rgb(155, 155, 155);
+    border: 2px solid black;
+    padding: 10px;
+}
+
+nav div span img {
+    height: 100px;
+    width: 200px;
+}
+
+nav {
+    height: 3600px;
+    background-color: rgb(255, 255, 255);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-indent: 100px;
+    height: 20vh;
+}
+
+header,
+footer,
+article,
+nav {
+    padding: 1em;
+}
